@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG(scalable vector graphics)</title>
+  <style>
+    .blob {
+      width: 500px;
+    }
+  </style>
+</head>
+<body>
+  <h1>SVG</h1>
+
+  <svg width="200" height="200">
+    <circle cx="90" cy="100" r="80" fill="blue" stroke="black" stroke-width="5" />
+    <text x="47" y="110" font-size="40" font-family="Verdana" fill="white">
+      SVG
+    </text>
+  </svg>
+
+  <svg class="blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#FF0066" d="M41.4,-61.6C54.9,-55.8,67.8,-46.3,76.3,-33.2C84.8,-20.1,88.9,-3.4,84.4,10.5C79.8,24.3,66.6,35.3,54.4,44.4C42.2,53.5,31.1,60.8,18.4,66C5.7,71.2,-8.5,74.3,-23.7,73.3C-39,72.2,-55.2,67.1,-63.3,55.9C-71.5,44.7,-71.4,27.5,-72.5,11.3C-73.5,-5,-75.5,-20.2,-72.4,-35.5C-69.2,-50.8,-60.8,-66.2,-47.9,-72.2C-35,-78.2,-17.5,-74.8,-1.7,-72.1C14,-69.4,28,-67.4,41.4,-61.6Z" transform="translate(100 100)" />
+  </svg>
+</body>
+</html>
